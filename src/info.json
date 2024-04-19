@@ -1,0 +1,31 @@
+{
+    "identifier": "xuanlingzi.kimi.translator",
+    "version": "0.1.0",
+    "category": "translate",
+    "name": "Kimi Translator",
+    "summary": "",
+    "icon": "",
+    "author": "xuanlingzi <xuanlingzi@gmail.com>",
+    "homepage": "https://github.com/xuanlingzi/bob-plugin-kimi-translator",
+    "appcast": "",
+    "minBobVersion": "1.8.0",
+    "options": [{
+        "identifier": "access_token",
+        "type": "text",
+        "textConfig": {
+            "type": "secure"
+        },
+        "title": "Access Token",
+        "desc": "Kimi API Access Token",
+        "isKeyOption": true
+    },{
+        "identifier": "refresh_token",
+        "type": "text",
+        "textConfig": {
+            "type": "secure"
+        },
+        "title": "Refresh Token",
+        "desc": "Kimi API Refresh Token",
+        "isKeyOption": true
+    }]
+}
